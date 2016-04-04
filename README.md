@@ -1,4 +1,4 @@
-#nlog - the simple nodejs logger for your amazing projects!
+#loggos - the simple nodejs logger for your amazing projects!
 
 Nlog is a simple logging library to get you up and running as fast as possible.
 It features: 
@@ -7,13 +7,13 @@ It features:
 - asynchronous writing to logfiles, to speed up things
 
 ## Installation
-To use nlog, just do a simple `npm install --save nlog`.
+To use loggos, just do a simple `npm install --save loggos`.
 
 ## Examples
 ```javascript
-var Log = require("nlog");
+var Log = require("loggos");
 log = new Log("logfile.log"); 
-//By default, nlog will stop writing to stdout, when a logfile is specified.
+//By default, loggos will stop writing to stdout, when a logfile is specified.
 log.setWriteToConsole(true);
 
 log.info("Tag", "This is an informational message");

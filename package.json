@@ -1,5 +1,5 @@
 {
-  "name": "nlog",
+  "name": "loggos",
   "version": "1.0.0",
   "description": "Simple logger for your projects",
   "main": "bin/log.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arial7/nlog.git"
+    "url": "git+https://github.com/Arial7/loggos.git"
   },
   "keywords": [
     "log",
@@ -19,9 +19,9 @@
   "author": "Pascal Riesinger <riesinger.pascal@gmail.com> (https://github.com/Arial7)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Arial7/nlog/issues"
+    "url": "https://github.com/Arial7/loggos/issues"
   },
-  "homepage": "https://github.com/Arial7/nlog#readme",
+  "homepage": "https://github.com/Arial7/loggos#readme",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-coffeelint": "0.0.15",
