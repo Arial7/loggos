@@ -139,9 +139,14 @@
           return _this.error(data.tag, data.message);
         };
       })(this));
-      return logger.on('logFatal', (function(_this) {
+      logger.on('logFatal', (function(_this) {
         return function(data) {
           return _this.fatal(data.tag, data.message);
+        };
+      })(this));
+      return logger.on('logTrace', (function(_this) {
+        return function(data) {
+          return _this.trace(data.tag, data.message, data.error);
         };
       })(this));
     };

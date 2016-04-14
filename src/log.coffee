@@ -132,6 +132,8 @@ class Log
             @error data.tag, data.message
         logger.on 'logFatal', (data) =>
             @fatal data.tag, data.message
+        logger.on 'logTrace', (data) =>
+            @trace data.tag, data.message, data.error
     
     # Internal method, writes all of the remaining messages to the file.
     startWrite: () ->
