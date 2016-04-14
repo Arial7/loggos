@@ -1,6 +1,6 @@
 {
   "name": "loggos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple logger for your projects",
   "main": "bin/log.js",
   "scripts": {
