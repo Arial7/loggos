@@ -24,9 +24,9 @@
   "homepage": "https://github.com/Arial7/loggos#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-coffeelint": "0.0.15",
+    "grunt-coffeelint": "0.0.16",
     "grunt-contrib-coffee": "^1.0.0",
-    "grunt-task-loader": "^0.6.0",
+    "load-grunt-tasks": "^3.5.0",
     "time-grunt": "^1.3.0"
   },
   "dependencies": {
